@@ -1,8 +1,8 @@
 import React from 'react'
 
-function AnimalShow() {
+function AnimalShow({type}) {
   return (
-    <div>AnimalShow</div>
+    <div>{type}</div>
   )
 }
 
